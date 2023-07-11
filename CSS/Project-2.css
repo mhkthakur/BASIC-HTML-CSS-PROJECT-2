@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Row 1 css start */
+#row1{
+    background-color: #1C3051;
+    height: 50px;
+    width: 100%;
+}
+.top-section{
+    width: 54%;
+    margin: 0 auto;
+}
+.logo{
+    width: 14%;
+    background-color: #000;
+}
+.logo img{
+    height: 70px;
+    float: left;
+    margin: -7px;
+    margin-left: 36px;
+    margin-right: 20px;
+}
+.menu-items{ 
+    width: 80%; 
+}
+.menu-items ul{
+}
+.menu-items ul li{
+    list-style: none;
+}
+.menu-items ul li a{
+    float: left;
+    color: #000;
+    margin: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+}
+
+/* Row 1 css complete */
+
+/* Row 2 css start */
+#row2 {
+    height: 500px;
+    width: 100%;
+    background-image: url(https://d33rxv6e3thba6.cloudfront.net/2016/11/585694100110bbd3464f1265/18131-ggmvm5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+    background-attachment: fixed;
+}
+.overlay-row2 {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+}
+.banner-section {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 180px;
+}
+
+.banner-content p {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+/* Row 2 css end  */
+
+/* Row 3 css start */
+
+#row3{
+    height: 300px;
+    width: 100%;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+.upper-content{}
+.upper-content h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.lower-content{
+    margin-top: 20px;
+    width: 100%;
+    float: right;
+}
+.all-content{
+    text-align: center;
+    width: 29%;
+    float: left;
+    margin-left: 26px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.logo-image{}
+.logo-image i{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 100%;
+    align-items: center;
+}
+.text-content{
+    margin-top: 15px;
+}
+.text-content h2{
+    margin-top: 15px;
+}
+.text-content p{
+    margin-top: 15px;
+}
+/*  Row 3 css complete */
+
+/* Row 4 css start */
+
+#row4{
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+}
+.content-row4{
+    width: 90%;
+    margin: 0 auto;
+}
+.upper-content-row4{
+    padding: 1px;
+}
+.upper-content-row4 h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.lower-content-row4{
+    margin-top: 30px;
+    width: 100%;
+    float: left;
+    margin: 30px auto;
+}
+.all-content-row4{
+    text-align: center;
+    width: 29%;
+    float: left;
+    margin-left: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.images img{
+    height: 150px;
+    width: 300px;
+}
+
+.text-content-row4{
+    margin-top: 15px;
+}
+.text-content-row4 p{
+    margin-top: 15px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 27px;
+}
+
+/* Row 4 css end */
